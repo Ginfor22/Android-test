@@ -8,13 +8,9 @@ import java.sql.Statement;
 
 //mysql连接数据库的辅助工具类
 public class DBUtils {
-    /**
-     * 电脑的IP地址 192.168.56.1  qq的
-     * 10.9.15.174 zj的
-     * */
-    private static final String url="jdbc:mysql://10.9.15.174:3306/xuetang?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8";
-    private static final String user="root2";/*数据库用户名*/
-    private static final String password="123456";/*进入数据库的密码*/
+    private static final String url="jdbc:mysql://xx.x.xx.xxx:3306/shuju?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8";
+    private static final String user="xxx";/*数据库用户名*/
+    private static final String password="xxxxx";/*进入数据库的密码*/
     public static Connection conn;    //连接对象
     public static Statement stmt;        //命令集
     public static PreparedStatement pStmt;  //预编译命令集
